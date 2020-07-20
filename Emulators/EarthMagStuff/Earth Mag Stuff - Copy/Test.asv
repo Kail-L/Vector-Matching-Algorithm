@@ -1,0 +1,8 @@
+
+load('SatPosAtt.mat')
+
+t = RefVecs(:,1);
+r = RefVecs(:,2:4);
+
+for i = 1:length(t)
+    BiCaverly = 
